@@ -1,0 +1,9 @@
+{
+  "id": "fixture-playlist",
+  "title": "Fixture playlist",
+  "_type": "playlist",
+  "entries": [
+    {"id": "one", "title": "First fixture video", "url": "https://video.invalid/watch/one"},
+    {"id": "two", "title": "Second fixture video", "url": "https://video.invalid/watch/two"}
+  ]
+}

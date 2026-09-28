@@ -1,0 +1,24 @@
+name: Funktionsvorschlag (Deutsch)
+description: Eine Verbesserung der App vorschlagen.
+title: "[Vorschlag]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: "Bitte keine privaten Kontodaten, Medienlinks oder Zugangsdaten einfügen."
+  - type: textarea
+    id: problem
+    attributes:
+      label: Welches Problem soll gelöst werden?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Gewünschtes Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Geprüfte Alternativen

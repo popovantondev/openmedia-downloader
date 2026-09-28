@@ -1,0 +1,49 @@
+name: Fehlerbericht (Deutsch)
+description: Einen nachvollziehbaren Fehler melden.
+title: "[Fehler]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Bitte keine Passwörter, Cookies, Tokens, signierten Medienlinks, persönlichen Pfade, privaten Titel oder ungekürzten Protokolle einfügen."
+  - type: input
+    id: version
+    attributes:
+      label: App-Version
+      description: Die Version aus der App verwenden, keinen Bundle-Pfad angeben.
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS-Version und Prozessortyp
+      placeholder: "macOS-Version; Apple silicon"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Fehler
+      description: Private Medienlinks und Titel durch erfundene Beispiele ersetzen.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Tatsächliches Verhalten
+      description: Bei Bedarf nur eine kurze, bereinigte Fehlermeldung einfügen.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Datenschutzprüfung
+      options:
+        - label: Ich habe Kontodaten, Cookies, Tokens, signierte Links, persönliche Pfade und private Protokolle entfernt.
+          required: true

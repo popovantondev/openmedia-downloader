@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>CFBundleExecutable</key><string>OpenMediaDownloader</string>
+    <key>CFBundleIdentifier</key><string>io.github.popovantondev.OpenMediaDownloader</string>
+    <key>CFBundleName</key><string>OpenMedia Downloader</string>
+    <key>CFBundleDisplayName</key><string>OpenMedia Downloader</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleIconFile</key><string>AppIcon</string>
+    <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+    <key>CFBundleShortVersionString</key><string>5.5.0</string>
+    <key>CFBundleVersion</key><string>5.5.0</string>
+    <key>LSMinimumSystemVersion</key><string>15.0</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>OMDCandidateStatus</key><string>PROVISIONAL / UNVERIFIED / NOT FOR REDISTRIBUTION</string>
+</dict></plist>

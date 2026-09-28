@@ -1,0 +1,8 @@
+{"type":"title","requestId":"r-1","generation":3,"source":"https://example.invalid/list","title":"Playlist"}
+{"type":"playlistEntry","requestId":"r-1","generation":3,"source":"https://example.invalid/list","itemId":"item-a","playlistPosition":0,"url":"https://example.invalid/video/1","title":"Video 1","availability":"unknown"}
+{"type":"metadata","requestId":"r-1","generation":3,"source":"https://example.invalid/list","itemId":"item-a","playlistPosition":0,"entry":{"url":"https://example.invalid/video/1","title":"Video 1","availability":"available","estimates":[]}}
+{"type":"inspectionError","requestId":"r-1","generation":3,"source":"https://example.invalid/list","index":1,"error":"Video unavailable"}
+{"type":"authWarning","requestId":"r-1","generation":3,"source":"https://example.invalid/list","code":"authenticationRequired","message":"Sign in may be required"}
+{"type":"progress","taskId":"task-a","stage":"downloading","progress":0.5,"downloadedBytes":50}
+{"type":"recordingFinalized","taskId":"task-r","status":"saved","path":"/tmp/recording.mp4"}
+{"type":"inspectionComplete","requestId":"r-1","generation":3,"source":"https://example.invalid/list","ok":true,"isPlaylist":true,"count":2}

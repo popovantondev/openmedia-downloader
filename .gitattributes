@@ -1,0 +1,2 @@
+# Fremde Lizenztexte bleiben bytegetreu; deren Leerzeichen nicht korrigieren.
+licenses/** -whitespace

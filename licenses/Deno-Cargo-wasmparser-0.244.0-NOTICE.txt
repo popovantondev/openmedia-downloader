@@ -1,0 +1,5 @@
+Copyright 2017 Mozilla Foundation
+Copyright 2018 Mozilla Foundation
+Copyright 2019 Mozilla Foundation
+Copyright 2020 Mozilla Foundation
+Copyright 2024 Mozilla Foundation
