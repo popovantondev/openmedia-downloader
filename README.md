@@ -47,4 +47,4 @@ The [architecture and source-development guide](docs/ARCHITEKTUR_BUILD_EN.md) ex
 - [Third-party component overview](docs/THIRD_PARTY_OVERVIEW_EN.md)
 - [Screenshot guidance](docs/SCREENSHOTS_EN.md)
 
-Bug reports should use the [issue templates](.github/ISSUE_TEMPLATE/). Please do not attach browser profiles, cookies, account details, private logs, or unredacted screenshots.
+Bug reports should use the [issue forms](https://github.com/popovantondev/openmedia-downloader/issues/new/choose). Please do not attach browser profiles, cookies, account details, private logs, or unredacted screenshots.
