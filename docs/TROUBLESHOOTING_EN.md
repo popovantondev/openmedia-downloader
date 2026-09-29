@@ -24,4 +24,4 @@ Check the network and free disk space. A provider may have changed a URL, format
 
 ## Report a problem
 
-Use an [issue template](../.github/ISSUE_TEMPLATE/). Describe the steps and expected result. Remove account names, personal paths, cookies, tokens, signed URLs, and private media titles from text, screenshots, and attachments. Do not attach a browser database or complete private logs.
+Use an [issue form](https://github.com/popovantondev/openmedia-downloader/issues/new/choose). Describe the steps and expected result. Remove account names, personal paths, cookies, tokens, signed URLs, and private media titles from text, screenshots, and attachments. Do not attach a browser database or complete private logs.
