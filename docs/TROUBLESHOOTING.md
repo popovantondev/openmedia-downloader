@@ -24,4 +24,4 @@ Prüfen Sie Netzwerk und freien Speicherplatz. Ein Anbieter kann eine URL, ein F
 
 ## Problem melden
 
-Nutzen Sie eine [Issue-Vorlage](../.github/ISSUE_TEMPLATE/). Beschreiben Sie Schritte und erwartetes Verhalten. Entfernen Sie aus jedem Text, Screenshot oder Anhang Kontonamen, persönliche Pfade, Cookies, Tokens, signierte URLs und private Mediennamen. Hängen Sie keine Browserdatenbank oder vollständige private Logs an.
+Nutzen Sie eine [Issue-Formular](https://github.com/popovantondev/openmedia-downloader/issues/new/choose). Beschreiben Sie Schritte und erwartetes Verhalten. Entfernen Sie aus jedem Text, Screenshot oder Anhang Kontonamen, persönliche Pfade, Cookies, Tokens, signierte URLs und private Mediennamen. Hängen Sie keine Browserdatenbank oder vollständige private Logs an.
