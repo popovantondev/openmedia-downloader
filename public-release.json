@@ -1,0 +1,54 @@
+{
+  "name": "OpenMedia Downloader",
+  "version": "5.5.0",
+  "platform": "macOS 15+ · Apple Silicon",
+  "tag": null,
+  "description": {
+    "ru": "Проверяет поддерживаемые медиассылки и позволяет выбрать разрешённую загрузку или запись трансляции.",
+    "de": "Prüft unterstützte Medienlinks und ermöglicht erlaubte Downloads oder die Aufzeichnung unterstützter Streams.",
+    "en": "Inspect supported media links and select authorized downloads or supported stream recordings."
+  },
+  "requirements": {
+    "ru": "Только исходники: распространение готового приложения пока не согласовано по сторонним компонентам. Сохраняйте только материалы, на которые у вас есть право.",
+    "de": "Nur Quellcode: Freigabe der gebündelten Fremdkomponenten für eine App-Veröffentlichung steht aus. Nur berechtigte Medien speichern.",
+    "en": "Source only: redistribution clearance for bundled third-party components is pending. Save only media you are authorized to keep."
+  },
+  "start": {
+    "ru": "Откройте документацию и статус распространения. Готовый DMG или ZIP приложения сейчас не предлагается.",
+    "de": "Dokumentation und Veröffentlichungsstatus lesen. Derzeit wird kein fertiges App-DMG oder ZIP angeboten.",
+    "en": "Read the documentation and release status. No ready-to-use app DMG or ZIP is offered."
+  },
+  "schema_version": 1,
+  "repo": "openmedia-downloader",
+  "source_url": "https://github.com/popovantondev/openmedia-downloader",
+  "readmes": {
+    "en": [
+      "README.md",
+      "README_EN.md"
+    ],
+    "de": [
+      "README_DE.md"
+    ],
+    "ru": [
+      "README_RU.md"
+    ]
+  },
+  "guides": {
+    "ru": "Guide-ru.html",
+    "de": "Guide-de.html",
+    "en": "Guide-en.html"
+  },
+  "help_url": "https://popovantondev.github.io/openmedia-downloader/Guide-{lang}.html",
+  "feedback_url": "https://github.com/popovantondev/openmedia-downloader/issues/new/choose",
+  "status": "source",
+  "release_url": null,
+  "assets": [],
+  "downloads": [],
+  "checksums": [],
+  "version_files": [
+    {
+      "path": "VERSION",
+      "pattern": "^\\s*(\\S+)\\s*$"
+    }
+  ]
+}

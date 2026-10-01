@@ -1,6 +1,16 @@
 # OpenMedia Downloader — deutsche Anleitung
 
-[Benutzerhandbuch](https://popovantondev.github.io/openmedia-downloader/Guide-de.html)
+<!-- public-release:start -->
+Prüft unterstützte Medienlinks und ermöglicht erlaubte Downloads oder die Aufzeichnung unterstützter Streams.
+
+**macOS 15+ · Apple Silicon · Nur Quellcode 5.5.0**
+
+**[Quellcode](https://github.com/popovantondev/openmedia-downloader)** · **[Anleitung](https://popovantondev.github.io/openmedia-downloader/Guide-de.html)** · **[Fehler melden](https://github.com/popovantondev/openmedia-downloader/issues/new/choose)**
+
+**Voraussetzungen und Grenzen:** Nur Quellcode: Freigabe der gebündelten Fremdkomponenten für eine App-Veröffentlichung steht aus. Nur berechtigte Medien speichern.
+
+**Erste Schritte:** Dokumentation und Veröffentlichungsstatus lesen. Derzeit wird kein fertiges App-DMG oder ZIP angeboten.
+<!-- public-release:end -->
 
 OpenMedia Downloader ist eine native App für macOS 15 oder neuer auf Apple silicon. Sie untersucht unterstützte YouTube- und Vimeo-Links, lässt Medien und Qualität wählen und lädt Dateien oder nimmt unterstützte laufende Streams auf. Die Dokumentation beschreibt die Entwicklungslinie 5.5.0; die Paketierung ist noch nicht zur Weitergabe freigegeben ([Status](docs/RIGHTS_DE.md)).
 
