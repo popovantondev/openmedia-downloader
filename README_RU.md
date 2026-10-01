@@ -1,6 +1,16 @@
 # OpenMedia Downloader — руководство на русском
 
-[Руководство пользователя](https://popovantondev.github.io/openmedia-downloader/Guide-ru.html)
+<!-- public-release:start -->
+Проверяет поддерживаемые медиассылки и позволяет выбрать разрешённую загрузку или запись трансляции.
+
+**macOS 15+ · Apple Silicon · Только исходники 5.5.0**
+
+**[Исходники](https://github.com/popovantondev/openmedia-downloader)** · **[Инструкция](https://popovantondev.github.io/openmedia-downloader/Guide-ru.html)** · **[Сообщить об ошибке](https://github.com/popovantondev/openmedia-downloader/issues/new/choose)**
+
+**Требования и ограничения:** Только исходники: распространение готового приложения пока не согласовано по сторонним компонентам. Сохраняйте только материалы, на которые у вас есть право.
+
+**Первые шаги:** Откройте документацию и статус распространения. Готовый DMG или ZIP приложения сейчас не предлагается.
+<!-- public-release:end -->
 
 OpenMedia Downloader — нативное приложение для macOS 15 или новее на Apple silicon. Оно проверяет поддерживаемые ссылки YouTube и Vimeo, помогает выбрать формат и качество, загружает файлы и записывает поддерживаемые текущие трансляции. Документация относится к линии разработки 5.5.0; пакет пока не допущен к распространению ([статус](docs/RIGHTS_RU.md)).
 
