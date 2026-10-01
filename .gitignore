@@ -31,3 +31,8 @@ tmp/
 *.p12
 *.pfx
 *.key
+
+# Public documentation, not browser cookie data.
+!docs/COOKIES.md
+!docs/COOKIES_EN.md
+!docs/COOKIES_RU.md
