@@ -1,0 +1,32 @@
+{
+  "folder": ".",
+  "shots": {
+    "ru": "assets/screenshots/ru/main-window.png",
+    "de": "assets/screenshots/de/main-window.png",
+    "en": "assets/screenshots/en/main-window.png"
+  },
+  "icon": "presentation-icon.png",
+  "palette": {
+    "accent": "#a45b1c",
+    "tint": "#fff1e2",
+    "hero": "#42301f",
+    "hero-end": "#815934"
+  },
+  "flow": {
+    "ru": [
+      "Изучить исходники",
+      "Настроить окружение",
+      "Работать с разрешёнными материалами"
+    ],
+    "de": [
+      "Quellcode ansehen",
+      "Umgebung einrichten",
+      "Erlaubte Medien verwenden"
+    ],
+    "en": [
+      "Review source",
+      "Set up the environment",
+      "Use permitted media"
+    ]
+  }
+}
