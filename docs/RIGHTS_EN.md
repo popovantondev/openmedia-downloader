@@ -14,6 +14,6 @@ Bundled third-party components remain subject to their own licenses. Their origi
 
 ## Why distribution is blocked
 
-The current M19 review has not closed the actual Deno dependency notice/linkage inventory, the native corresponding-source review for parts of yt-dlp, or the independent source-to-runtime provenance for CPython. A clean-checkout package build and remaining release acceptance are also required. A checksum, local signature, or successful test is not by itself redistribution clearance.
+The review of the bundled components is still open: it has not closed the actual Deno dependency notice/linkage inventory, the native corresponding-source review for parts of yt-dlp, or the independent source-to-runtime provenance for CPython. A clean-checkout package build and remaining release acceptance are also required. A checksum, local signature, or successful test is not by itself redistribution clearance.
 
 The 5.5 app is ad-hoc signed and not Apple-notarized. This document is a project status notice, not legal advice or a substitute for the license terms of bundled software.

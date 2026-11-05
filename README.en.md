@@ -1,4 +1,6 @@
-# OpenMedia Downloader — English guide
+# OpenMedia Downloader
+
+**Languages:** [Deutsch](README.md) · English · [Русский](README.ru.md)
 
 <!-- public-release:start -->
 Inspect supported media links and select authorized downloads or supported stream recordings.
@@ -17,6 +19,16 @@ OpenMedia Downloader is a native app for macOS 15 or later on Apple silicon. It 
 **No DMG is included:** the licensing and source-provenance review for third-party components bundled in the app is not complete, so redistribution clearance for that binary has not been established. This is an open licensing/compliance gate, not a packaging error. The project code has a separate PolyForm Strict license; it permits non-commercial use but does not grant recipients downstream redistribution or derivative-work rights. See [rights and release status](docs/RIGHTS_EN.md).
 
 ![OpenMedia Downloader main window in English](assets/screenshots/en/main-window.png)
+
+## Features
+
+- Progressive title and playlist discovery; playlist items begin unselected.
+- MP4 video, AAC audio saved as M4A when available, and MP3 audio conversion.
+- Quality and automatic, direct, or segmented transfer choices where the source offers them.
+- Multiple variants, a queue, per-file progress, cancellation, and concurrent downloads.
+- Detection and recording of supported ongoing streams, with a clear stop-and-save action.
+- Optional browser authentication. Public media can be tried without cookies.
+- Interface in German, English and Russian.
 
 ## Start a download
 
@@ -40,12 +52,18 @@ Cookies are optional and sensitive. Public videos can be attempted without them.
 
 If a link cannot be inspected, verify that it is supported and reachable, then inspect again. If a format is missing, the source may not provide it. For cookie errors, retry without cookies for public media or choose another supported authentication method. See [troubleshooting](docs/TROUBLESHOOTING_EN.md).
 
+## Build from source
+
+The [architecture and source-development guide](docs/ARCHITEKTUR_BUILD_EN.md) explains the app structure and Swift checks (`swift build`, `swift test`). This source-only snapshot omits bundled runtimes, media-tool binaries, and third-party source archives, so it is not a complete app build kit. No command publishes or uploads the project.
+
 ## More
 
 - [Project license](LICENSE) — PolyForm Strict 1.0.0, for non-commercial use.
 - [Architecture and build guide](docs/ARCHITEKTUR_BUILD_EN.md)
-- [Changelog](CHANGELOG_EN.md)
+- [Changelog](CHANGELOG.en.md)
 - [Rights and release status](docs/RIGHTS_EN.md) · [Third-party component overview](docs/THIRD_PARTY_OVERVIEW_EN.md)
 - [Privacy-safe screenshot guide](docs/SCREENSHOTS_EN.md)
 
 Only download media you have permission to save. The app does not bypass DRM, paywalls, or account access controls.
+
+Bug reports should use the [issue forms](https://github.com/popovantondev/openmedia-downloader/issues/new/choose). Please do not attach browser profiles, cookies, account details, private logs, or unredacted screenshots.

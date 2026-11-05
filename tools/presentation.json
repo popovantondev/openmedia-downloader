@@ -6,9 +6,17 @@
     "en": "assets/screenshots/en/main-window.png"
   },
   "icon": "presentation-icon.png",
+  "stack": "Swift · Python",
   "palette": {
     "accent": "#a45b1c",
     "tint": "#fff1e2",
+    "hero": "#42301f",
+    "hero-end": "#815934"
+  },
+  "palette_dark": {
+    "accent": "#e8a566",
+    "accent-ink": "#2a1807",
+    "tint": "#2c2013",
     "hero": "#42301f",
     "hero-end": "#815934"
   },
@@ -28,5 +36,148 @@
       "Set up the environment",
       "Use permitted media"
     ]
+  },
+  "bento": {
+    "de": {
+      "inst_title": "Aus dem Quellcode prüfen",
+      "inst_text": "Swift-App mit Python-Backend (yt-dlp, FFmpeg, Deno). Eine fertige App gibt es noch nicht; Schritte laut „Architektur und Build“.",
+      "term": [
+        [
+          "dim",
+          "Voraussetzung: Mac mit Apple silicon, macOS 15 oder neuer, Swift 6 (Xcode oder Command Line Tools)"
+        ],
+        [
+          "ps",
+          "swift build"
+        ],
+        [
+          "ps",
+          "swift test"
+        ],
+        [
+          "dim",
+          "Das baut und testet nur die Swift-Komponenten – keine vollständige App, keine echten Downloads"
+        ]
+      ],
+      "tile": {
+        "title": "Verbindung",
+        "text": "Die App läuft lokal auf Ihrem Mac und lädt Medien direkt von der jeweiligen Plattform, etwa YouTube oder Vimeo. Einen eigenen Cloud-Dienst gibt es nicht. Cookies sind optional; öffentliche Medien lassen sich auch ohne Cookies versuchen.",
+        "chips": [
+          "Direkt von der Plattform",
+          "Cookies optional"
+        ]
+      },
+      "features": [
+        "Titel und Playlists schrittweise erkennen",
+        "MP4 · AAC/M4A · MP3",
+        "Qualität und Übertragungsart wählen",
+        "Warteschlange mit Fortschritt je Datei",
+        "Parallele Downloads (Standard: 4 × 4)",
+        "Aufnahme laufender Streams",
+        "Optionale Browser-Authentifizierung",
+        "Oberfläche DE · RU · EN"
+      ],
+      "checks": [
+        "Automatische Prüfungen auf GitHub Actions: Swift-Build und Swift-Tests (macOS 15)",
+        "Dokumentationsprüfung bei jeder Änderung und wöchentlich (Links, Versionen, veröffentlichte Seiten)",
+        "Python-Backend-Tests im Repository (backend/tests)",
+        "Version {v} mit Änderungsprotokoll (CHANGELOG)",
+        "Anleitung auf Deutsch, Englisch und Russisch"
+      ]
+    },
+    "en": {
+      "inst_title": "Check the source",
+      "inst_text": "A Swift app with a Python backend (yt-dlp, FFmpeg, Deno). There is no ready-made app yet; steps follow “Architecture and build”.",
+      "term": [
+        [
+          "dim",
+          "Requires: a Mac with Apple silicon, macOS 15 or later, Swift 6 (Xcode or Command Line Tools)"
+        ],
+        [
+          "ps",
+          "swift build"
+        ],
+        [
+          "ps",
+          "swift test"
+        ],
+        [
+          "dim",
+          "This builds and tests only the Swift components – no complete app, no real downloads"
+        ]
+      ],
+      "tile": {
+        "title": "Connection",
+        "text": "The app runs locally on your Mac and downloads media directly from the respective platform, such as YouTube or Vimeo. There is no cloud service of its own. Cookies are optional; public media can also be tried without cookies.",
+        "chips": [
+          "Straight from the platform",
+          "Cookies optional"
+        ]
+      },
+      "features": [
+        "Progressive title and playlist discovery",
+        "MP4 · AAC/M4A · MP3",
+        "Choice of quality and transfer mode",
+        "Queue with per-file progress",
+        "Concurrent downloads (default: 4 × 4)",
+        "Recording of ongoing streams",
+        "Optional browser authentication",
+        "Interface DE · RU · EN"
+      ],
+      "checks": [
+        "Automatic checks on GitHub Actions: Swift build and Swift tests (macOS 15)",
+        "Documentation check on every change and weekly (links, versions, published pages)",
+        "Python backend tests in the repository (backend/tests)",
+        "Version {v} with changelog",
+        "Guide in German, English and Russian"
+      ]
+    },
+    "ru": {
+      "inst_title": "Проверка из исходников",
+      "inst_text": "Приложение на Swift с бэкендом на Python (yt-dlp, FFmpeg, Deno). Готового приложения пока нет; шаги — по руководству «Архитектура и сборка».",
+      "term": [
+        [
+          "dim",
+          "Нужно: Mac с Apple silicon, macOS 15 или новее, Swift 6 (Xcode или Command Line Tools)"
+        ],
+        [
+          "ps",
+          "swift build"
+        ],
+        [
+          "ps",
+          "swift test"
+        ],
+        [
+          "dim",
+          "Собираются и проверяются только компоненты Swift – без полного приложения и без настоящих загрузок"
+        ]
+      ],
+      "tile": {
+        "title": "Подключение",
+        "text": "Приложение работает локально на вашем Mac и загружает материалы напрямую с соответствующей платформы, например YouTube или Vimeo. Собственного облачного сервиса нет. Cookies необязательны; публичные материалы можно попробовать и без них.",
+        "chips": [
+          "Напрямую с платформы",
+          "Cookies необязательны"
+        ]
+      },
+      "features": [
+        "Постепенное определение названий и плейлистов",
+        "MP4 · AAC/M4A · MP3",
+        "Выбор качества и режима передачи",
+        "Очередь с прогрессом по каждому файлу",
+        "Параллельные загрузки (по умолчанию 4 × 4)",
+        "Запись текущих трансляций",
+        "Необязательный вход через браузер",
+        "Интерфейс DE · RU · EN"
+      ],
+      "checks": [
+        "Автоматические проверки в GitHub Actions: сборка и тесты Swift (macOS 15)",
+        "Проверка документации при каждом изменении и раз в неделю (ссылки, версии, опубликованные страницы)",
+        "Тесты Python-бэкенда в репозитории (backend/tests)",
+        "Версия {v} и журнал изменений",
+        "Руководство на немецком, английском и русском"
+      ]
+    }
   }
 }

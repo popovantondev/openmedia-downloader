@@ -9,7 +9,7 @@ Product changes. Entries distinguish implemented code from completed verificatio
 - Added states for scheduled, ongoing, and completed streams, plus recording controls.
 - Supported YouTube and Vimeo embed links can be inspected.
 - Language, appearance, queue, and authentication features continue to evolve.
-- New packaging and public documentation are being prepared.
+- Packaging notes and public documentation are updated for the source package.
 
 **Status:** This is not an approved binary release. Full package and component-rights review remains open; see [rights and release status](docs/RIGHTS_EN.md). Integrated network, live-stream, visual, and second-Mac acceptance must be reported separately.
 

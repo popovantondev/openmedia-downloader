@@ -9,7 +9,7 @@
 - Status für geplante, laufende und beendete Streams sowie Aufnahme-Steuerung ergänzt.
 - Einbettungslinks zu unterstützten YouTube- und Vimeo-Playern werden untersucht.
 - Sprach-, Darstellungs-, Warteschlangen- und Authentifizierungsfunktionen weiterentwickelt.
-- Neue Paketierung und öffentliche Dokumentation werden vorbereitet.
+- Hinweise zur Paketierung und öffentliche Dokumentation sind für das Quellpaket aktualisiert.
 
 **Status:** Dies ist kein freigegebener Binärrelease. Die Lizenz- und Herkunftsprüfung der Drittanbieter-Komponenten ist offen; siehe [Rechte und Paketstatus](docs/RIGHTS_DE.md). Integrierte Netzwerk-, Live-Stream-, visuelle und Zweit-Mac-Abnahme ist separat zu dokumentieren.
 

@@ -1,62 +1,69 @@
 # OpenMedia Downloader
 
+**Sprachen:** Deutsch · [English](README.en.md) · [Русский](README.ru.md)
+
 <!-- public-release:start -->
-Inspect supported media links and select authorized downloads or supported stream recordings.
+Prüft unterstützte Medienlinks und ermöglicht erlaubte Downloads oder die Aufzeichnung unterstützter Streams.
 
-**macOS 15+ · Apple Silicon · Source only 5.5.0**
+**macOS 15+ · Apple Silicon · Nur Quellcode 5.5.0**
 
-**[Source](https://github.com/popovantondev/openmedia-downloader)** · **[User guide](https://popovantondev.github.io/openmedia-downloader/Guide-en.html)** · **[Report a problem](https://github.com/popovantondev/openmedia-downloader/issues/new/choose)**
+**[Quellcode](https://github.com/popovantondev/openmedia-downloader)** · **[Anleitung](https://popovantondev.github.io/openmedia-downloader/Guide-de.html)** · **[Fehler melden](https://github.com/popovantondev/openmedia-downloader/issues/new/choose)**
 
-**Requirements and limitations:** Source only: redistribution clearance for bundled third-party components is pending. Save only media you are authorized to keep.
+**Voraussetzungen und Grenzen:** Nur Quellcode: Freigabe der gebündelten Fremdkomponenten für eine App-Veröffentlichung steht aus. Nur berechtigte Medien speichern.
 
-**First steps:** Read the documentation and release status. No ready-to-use app DMG or ZIP is offered.
+**Erste Schritte:** Dokumentation und Veröffentlichungsstatus lesen. Derzeit wird kein fertiges App-DMG oder ZIP angeboten.
 <!-- public-release:end -->
 
-A native macOS app for inspecting supported YouTube and Vimeo links, choosing media, and downloading or recording streams. The interface is available in English, Deutsch, and Русский.
+OpenMedia Downloader ist eine native App für macOS 15 oder neuer auf Apple silicon. Sie untersucht unterstützte YouTube- und Vimeo-Links, lässt Medien und Qualität wählen und lädt Dateien oder nimmt unterstützte laufende Streams auf. Die Dokumentation beschreibt die Entwicklungslinie 5.5.0; die Paketierung ist noch nicht zur Weitergabe freigegeben ([Status](docs/RIGHTS_DE.md)).
 
-**Current documentation describes the 5.5.0 development line.** Release packaging is not yet cleared for distribution; see [rights and release status](docs/RIGHTS_EN.md). The app is intended for macOS 15 or later on Apple silicon. Use only media you are authorized to save. The app does not bypass DRM, account restrictions, or paid access.
+**Ein DMG ist nicht enthalten:** Die Lizenz- und Herkunftsprüfung der in der App gebündelten Drittanbieter-Komponenten ist noch nicht abgeschlossen. Daher ist die Freigabe zur Weitergabe dieser Binärdatei nicht belegt. Das ist eine offene Lizenz-/Compliance-Prüfung und kein Fehler beim Erstellen der App. Für den Projektcode gilt zusätzlich PolyForm Strict: Die Lizenz erlaubt nichtkommerzielle Nutzung, gibt Empfängern aber kein Recht zur Weitergabe oder zur Erstellung abgeleiteter Werke. Siehe [Rechte und Paketstatus](docs/RIGHTS_DE.md).
 
-**No DMG is included:** the licensing and source-provenance review for third-party components bundled in the app is not complete, so redistribution clearance for that binary has not been established. This is an open licensing/compliance gate, not a packaging error. The project code has a separate PolyForm Strict license; it permits non-commercial use but does not grant recipients downstream redistribution or derivative-work rights. See [rights and release status](docs/RIGHTS_EN.md).
+![Hauptfenster von OpenMedia Downloader auf Deutsch](assets/screenshots/de/main-window.png)
 
-![OpenMedia Downloader 5.5 main window in English](assets/screenshots/en/main-window.png)
+## Funktionen
 
-## Guides
+- Titel und Playlist-Einträge werden schrittweise erkannt; Playlist-Einträge sind anfangs nicht markiert.
+- MP4-Video, AAC-Audio als M4A (wenn verfügbar) und MP3-Konvertierung.
+- Qualität sowie automatische, direkte oder segmentierte Übertragung, soweit die Quelle sie anbietet.
+- Mehrere Varianten, Warteschlange, Fortschritt je Datei, Abbruch und parallele Downloads.
+- Erkennung und Aufnahme unterstützter laufender Streams mit der klaren Aktion „Aufnahme beenden und speichern“.
+- Optionale Browser-Authentifizierung. Öffentliche Medien lassen sich ohne Cookies versuchen.
+- Oberfläche auf Deutsch, Englisch und Russisch.
 
-- [English guide](README_EN.md)
-- [Русское руководство](README_RU.md)
-- [Deutsche Anleitung](README_DE.md)
+## Download starten
 
-## Features
+1. Wählen Sie beim ersten Start Deutsch, Englisch oder Russisch. Die Wahl wird gespeichert und kann im Hauptfenster geändert werden. Standard ist das System-Erscheinungsbild; hell und dunkel sind ebenfalls wählbar.
+2. Fügen Sie einen unterstützten Video- oder Playlist-Link ein. Titel und Status erscheinen schrittweise. Die Untersuchung startet keinen Download.
+3. Wählen Sie bei einer Playlist die gewünschten Einträge aus. Anfangs ist kein Eintrag markiert.
+4. Wählen Sie MP4-Video, AAC/M4A-Audio oder MP3-Audio sowie eine verfügbare Qualität und Übertragungsart. Das Angebot hängt von der Quelle ab.
+5. Wählen Sie den Zielordner, fügen Sie Aufträge hinzu und starten Sie die Warteschlange. Aufträge lassen sich einzeln oder gemeinsam abbrechen.
 
-- Progressive title and playlist discovery; playlist items begin unselected.
-- MP4 video, AAC audio saved as M4A when available, and MP3 audio conversion.
-- Quality and automatic, direct, or segmented transfer choices where the source offers them.
-- Multiple variants, a queue, per-file progress, cancellation, and concurrent downloads.
-- Detection and recording of supported ongoing streams, with a clear stop-and-save action.
-- Optional browser authentication. Public media can be tried without cookies.
+Mehrere Formate eines Videos sind getrennte Aufträge. Standardmäßig laufen vier Dateien parallel; pro Datei sind vier Fragmente eingestellt. Beides lässt sich ändern. `≈` kennzeichnet eine Schätzung. Eine unbekannte Größe ist kein Wert von null.
 
-Formats and transfer choices depend on the source. See [formats and streams](docs/FORMATS_AND_STREAMS_EN.md).
+## Formate und Streams
 
-## First run and downloads
+MP4-Video wird bei Bedarf zusammengeführt. AAC wird ohne erneute Kodierung kopiert und nur bei passender AAC-Quelle als M4A gespeichert. MP3 erfordert eine Audiokonvertierung. Details: [Formate und Streams](docs/FORMATS_AND_STREAMS.md).
 
-1. Open the app and choose Deutsch, English, or Русский. The choice is remembered and can be changed in the window.
-2. Paste one or more supported links and inspect them. Select playlist items explicitly.
-3. Choose format, quality, transfer mode, and destination; add the selected jobs to the queue.
-4. Start the queue. Check each row's status; cancel an item or stop the queue when needed.
+Erkannte laufende Streams können ab dem aktuellen Zeitpunkt aufgenommen werden. Eine Aufnahme vom Anfang wird nur angeboten, wenn die Quelle diese Möglichkeit meldet; sie ist experimentell. Live-Fortschritt zeigt Zeit, Datenmenge und Rate statt eines erfundenen Prozents oder einer Endgröße. **Aufnahme beenden und speichern** beendet die Aufnahme. Erfolg wird erst nach Abschluss und Prüfung der Datei gemeldet.
 
-For Safari authentication, macOS requires Full Disk Access for **the OpenMedia Downloader 5.5 app itself**. Safari does not need this permission. The app must be quit and reopened after changing the permission. A browser with saved cookies normally does not need to stay open. See the [cookie guide](docs/COOKIES_EN.md) for limits and alternatives.
+## Cookies und Hilfe
 
-## Build from source
+Cookies sind optional und vertraulich. Öffentliche Videos können ohne Cookies versucht werden. Für Safari-Cookies benötigt **OpenMedia Downloader 5.5 selbst** den Festplattenvollzugriff. Safari braucht diese Freigabe nicht. Danach muss die App mit ⌘Q beendet und neu geöffnet werden. Ein Browser muss normalerweise nicht geöffnet bleiben, wenn seine Cookies gespeichert sind. Siehe [Cookie-Anleitung](docs/COOKIES.md).
 
-The [architecture and source-development guide](docs/ARCHITEKTUR_BUILD_EN.md) explains the app structure and Swift checks. This source-only snapshot omits bundled runtimes, media-tool binaries, and third-party source archives, so it is not a complete app build kit. No command publishes or uploads the project.
+Bei Fehlern prüfen Sie Link und Netzwerk, untersuchen Sie den Link erneut und versuchen Sie öffentliche Medien ohne Cookies. Fehlt ein Format, bietet es die Quelle eventuell nicht an. Weitere Schritte: [Fehlerbehebung](docs/TROUBLESHOOTING.md).
 
-## Project records
+## Aus dem Quellcode bauen
 
-- [Project license](LICENSE) — PolyForm Strict 1.0.0, for non-commercial use.
-- [Changelog](CHANGELOG_EN.md)
-- [Troubleshooting](docs/TROUBLESHOOTING_EN.md)
-- [Rights and release status](docs/RIGHTS_EN.md)
-- [Third-party component overview](docs/THIRD_PARTY_OVERVIEW_EN.md)
-- [Screenshot guidance](docs/SCREENSHOTS_EN.md)
+Die [Anleitung zu Architektur und Quellcode-Arbeit](docs/ARCHITEKTUR_BUILD.md) erklärt den Aufbau der App und die Swift-Prüfungen (`swift build`, `swift test`). Dieser reine Quellcode-Stand enthält bewusst keine gebündelten Laufzeiten, Medienprogramme oder Drittanbieter-Quellarchive und ist daher kein vollständiges Bauset für die App. Kein Befehl veröffentlicht oder lädt das Projekt hoch.
 
-Bug reports should use the [issue forms](https://github.com/popovantondev/openmedia-downloader/issues/new/choose). Please do not attach browser profiles, cookies, account details, private logs, or unredacted screenshots.
+## Weitere Dokumente
+
+- [Projektlizenz](LICENSE) — PolyForm Strict 1.0.0 für nichtkommerzielle Nutzung.
+- [Architektur und Build](docs/ARCHITEKTUR_BUILD.md)
+- [Änderungen](CHANGELOG.md)
+- [Rechte- und Paketstatus](docs/RIGHTS_DE.md) · [Überblick zu Drittanbieter-Komponenten](docs/THIRD_PARTY_OVERVIEW_DE.md)
+- [Datenschutzfreundliche Screenshot-Anleitung](docs/SCREENSHOTS.md)
+
+Laden Sie nur Medien herunter, zu deren Speicherung Sie berechtigt sind. Die App umgeht weder DRM noch Bezahlschranken oder Kontorechte.
+
+Fehler bitte über die [Formulare](https://github.com/popovantondev/openmedia-downloader/issues/new/choose) melden. Hängen Sie keine Browserprofile, Cookies, Kontodaten, privaten Protokolle oder ungeschwärzten Screenshots an.

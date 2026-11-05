@@ -14,6 +14,6 @@ Für eingebundene Komponenten gelten deren eigene Lizenzen. Die Originaltexte si
 
 ## Gründe für die Sperre
 
-Die M19-Prüfung hat den tatsächlichen Deno-Linkage- und Hinweisumfang noch nicht abgeschlossen. Offen sind außerdem Quellnachweise für native Teile von yt-dlp und ein unabhängiger Nachweis, dass der eingebundene CPython-Laufzeitcode aus den dokumentierten Quellen stammt. Ein sauberer Build aus einem frischen Checkout und weitere Abnahmetests fehlen ebenfalls. Prüfsumme, lokale Signatur oder erfolgreicher Test allein bedeuten keine Freigabe zur Weitergabe.
+Die Prüfung der gebündelten Komponenten ist noch offen: Sie hat den tatsächlichen Deno-Linkage- und Hinweisumfang noch nicht abgeschlossen. Offen sind außerdem Quellnachweise für native Teile von yt-dlp und ein unabhängiger Nachweis, dass der eingebundene CPython-Laufzeitcode aus den dokumentierten Quellen stammt. Ein sauberer Build aus einem frischen Checkout und weitere Abnahmetests fehlen ebenfalls. Prüfsumme, lokale Signatur oder erfolgreicher Test allein bedeuten keine Freigabe zur Weitergabe.
 
 Die App 5.5 ist ad-hoc-signiert und nicht von Apple notarisiert. Dieses Dokument informiert über den Projektstatus und ist keine Rechtsberatung oder ein Ersatz für die Lizenzen der enthaltenen Software.

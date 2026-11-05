@@ -2,7 +2,7 @@
 
 This index explains the third-party license files kept in [`licenses/`](../licenses/). It does not replace them: upstream license and copyright texts are preserved in their original wording. The presence of a file here does not by itself prove that the corresponding code is linked into a particular app build.
 
-**Distribution is blocked.** Deno notice/linkage, native source and build provenance, and final packaged-component checks remain open. See [rights and release status](RIGHTS_EN.md). The detailed internal audit is not part of the public documentation set.
+**Distribution is blocked.** Deno notice/linkage, native source and build provenance, and final packaged-component checks remain open. See [rights and release status](RIGHTS_EN.md).
 
 ## yt-dlp standalone package
 

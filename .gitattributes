@@ -1,2 +1,6 @@
 # Fremde Lizenztexte bleiben bytegetreu; deren Leerzeichen nicht korrigieren.
 licenses/** -whitespace
+
+# Gemeinsames Site-Kit: LF, damit Kopien byte-gleich bleiben
+assets/kit/* text eol=lf
+assets/kit/* linguist-vendored

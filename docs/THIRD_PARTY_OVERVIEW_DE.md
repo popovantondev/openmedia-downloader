@@ -2,7 +2,7 @@
 
 Dieser Index erklärt die Drittanbieter-Lizenzdateien im Ordner [`licenses/`](../licenses/). Er ersetzt sie nicht: Originale Lizenz- und Copyright-Texte bleiben unverändert. Dass eine Datei hier aufgeführt ist, beweist nicht, dass der entsprechende Code in eine bestimmte App-Version gelinkt wurde.
 
-**Die Weitergabe ist blockiert.** Deno-Hinweise und Linkage, native Quellen und Build-Provenienz sowie die Prüfung des endgültigen App-Pakets sind noch offen. Siehe [Rechte- und Paketstatus](RIGHTS_DE.md). Der ausführliche interne Prüfbericht gehört nicht zu den öffentlichen Dokumenten.
+**Die Weitergabe ist blockiert.** Deno-Hinweise und Linkage, native Quellen und Build-Provenienz sowie die Prüfung des endgültigen App-Pakets sind noch offen. Siehe [Rechte- und Paketstatus](RIGHTS_DE.md).
 
 ## Eigenständiges yt-dlp-Paket
 
