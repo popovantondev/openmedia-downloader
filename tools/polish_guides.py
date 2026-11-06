@@ -124,7 +124,7 @@ def full_images(source, label):
     return source
 
 
-def main():
+def polish_pages():
     cfg, d = load()
     site = ROOT / cfg['folder']
     v = kit_version(cfg)
@@ -212,6 +212,13 @@ def _body(m, nav):
     else:
         attrs += ' class="ppk-page ppk-prose"'
     return '<body' + attrs + '>\n' + nav
+
+
+def main():
+    polish_pages()
+    import site_images
+    cfg, d = load()
+    site_images.optimize(ROOT / cfg['folder'], d['repo'], ROOT, 'Guide-*.html')
 
 
 if __name__ == '__main__':
