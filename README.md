@@ -1,6 +1,10 @@
+<div align="center">
+  <img src="assets/AppIcon.png" width="128" alt="OpenMedia Downloader Symbol">
+</div>
+
 # OpenMedia Downloader
 
-**Sprachen:** Deutsch · [English](README.en.md) · [Русский](README.ru.md)
+[Русский](README.ru.md) · **Deutsch** · [English](README.en.md)
 
 <!-- public-release:start -->
 Prüft unterstützte Medienlinks und ermöglicht erlaubte Downloads oder die Aufzeichnung unterstützter Streams.
@@ -14,11 +18,13 @@ Prüft unterstützte Medienlinks und ermöglicht erlaubte Downloads oder die Auf
 **Erste Schritte:** Dokumentation und Veröffentlichungsstatus lesen. Derzeit wird kein fertiges App-DMG oder ZIP angeboten.
 <!-- public-release:end -->
 
+**[Webseite](https://popovantondev.github.io/openmedia-downloader/)**
+
+![Hauptfenster von OpenMedia Downloader auf Deutsch](assets/screenshots/de/main-window.png)
+
 OpenMedia Downloader ist eine native App für macOS 15 oder neuer auf Apple silicon. Sie untersucht unterstützte YouTube- und Vimeo-Links, lässt Medien und Qualität wählen und lädt Dateien oder nimmt unterstützte laufende Streams auf. Die Dokumentation beschreibt die Entwicklungslinie 5.5.0; die Paketierung ist noch nicht zur Weitergabe freigegeben ([Status](docs/RIGHTS_DE.md)).
 
 **Ein DMG ist nicht enthalten:** Die Lizenz- und Herkunftsprüfung der in der App gebündelten Drittanbieter-Komponenten ist noch nicht abgeschlossen. Daher ist die Freigabe zur Weitergabe dieser Binärdatei nicht belegt. Das ist eine offene Lizenz-/Compliance-Prüfung und kein Fehler beim Erstellen der App. Für den Projektcode gilt zusätzlich PolyForm Strict: Die Lizenz erlaubt nichtkommerzielle Nutzung, gibt Empfängern aber kein Recht zur Weitergabe oder zur Erstellung abgeleiteter Werke. Siehe [Rechte und Paketstatus](docs/RIGHTS_DE.md).
-
-![Hauptfenster von OpenMedia Downloader auf Deutsch](assets/screenshots/de/main-window.png)
 
 ## Funktionen
 
@@ -58,12 +64,15 @@ Die [Anleitung zu Architektur und Quellcode-Arbeit](docs/ARCHITEKTUR_BUILD.md) e
 
 ## Weitere Dokumente
 
-- [Projektlizenz](LICENSE) — PolyForm Strict 1.0.0 für nichtkommerzielle Nutzung.
 - [Architektur und Build](docs/ARCHITEKTUR_BUILD.md)
 - [Änderungen](CHANGELOG.md)
-- [Rechte- und Paketstatus](docs/RIGHTS_DE.md) · [Überblick zu Drittanbieter-Komponenten](docs/THIRD_PARTY_OVERVIEW_DE.md)
+- [Überblick zu Drittanbieter-Komponenten](docs/THIRD_PARTY_OVERVIEW_DE.md)
 - [Datenschutzfreundliche Screenshot-Anleitung](docs/SCREENSHOTS.md)
 
 Laden Sie nur Medien herunter, zu deren Speicherung Sie berechtigt sind. Die App umgeht weder DRM noch Bezahlschranken oder Kontorechte.
 
 Fehler bitte über die [Formulare](https://github.com/popovantondev/openmedia-downloader/issues/new/choose) melden. Hängen Sie keine Browserprofile, Cookies, Kontodaten, privaten Protokolle oder ungeschwärzten Screenshots an.
+
+## Rechte und Lizenz
+
+Projektlizenz: [PolyForm Strict 1.0.0](LICENSE) für nichtkommerzielle Nutzung. Rechte- und Paketstatus: [Rechte](docs/RIGHTS_DE.md).
