@@ -1,7 +1,7 @@
 /* Page accent and page-only rules. Components and tokens come from assets/kit/kit.css. */
-:root{--ppk-accent:#a45b1c;--ppk-tint:#fff1e2;--ppk-hero:#42301f;--ppk-hero-end:#815934}
-:root[data-theme="dark"]{--ppk-accent:#e8a566;--ppk-accent-ink:#2a1807;--ppk-tint:#2c2013;--ppk-hero:#42301f;--ppk-hero-end:#815934}
-@media (prefers-color-scheme:dark){:root:not([data-theme]){--ppk-accent:#e8a566;--ppk-accent-ink:#2a1807;--ppk-tint:#2c2013;--ppk-hero:#42301f;--ppk-hero-end:#815934}}
+:root{--ppk-accent:#1d5bb8;--ppk-tint:#e8f0fc;--ppk-hero:#0d2a55;--ppk-hero-end:#2a62b0}
+:root[data-theme="dark"]{--ppk-accent:#7db4f0;--ppk-accent-ink:#07203f;--ppk-tint:#12263f;--ppk-hero:#0d2a55;--ppk-hero-end:#2a62b0}
+@media (prefers-color-scheme:dark){:root:not([data-theme]){--ppk-accent:#7db4f0;--ppk-accent-ink:#07203f;--ppk-tint:#12263f;--ppk-hero:#0d2a55;--ppk-hero-end:#2a62b0}}
 .ppk-meta-chip{margin-left:6px}
 .ppk-start{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center;padding:28px;border:1px solid var(--ppk-line);border-radius:var(--ppk-radius-l);background:var(--ppk-panel)}
 .ppk-start h2{margin:0 0 8px}.ppk-start p{margin:0;color:var(--ppk-muted)}.ppk-start .ppk-actions{margin:0}

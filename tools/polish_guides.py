@@ -51,9 +51,10 @@ body.ppk-page{overflow-wrap:anywhere}
 
 
 HERO_CSS = '''/* The guide hero follows the accent of the program. */
-.ppk-page .hero{background:linear-gradient(135deg,var(--ppk-hero),var(--ppk-hero-end));box-shadow:none}
-.ppk-page .hero .kicker,.ppk-page .hero .meta{color:#ffffffd9}
-.ppk-page .hero .lead{color:#fff}
+.ppk-page .hero{background:radial-gradient(circle at 90% 10%,var(--ppk-hero-end) 0,var(--ppk-hero) 38%,#07172e 82%);border:1px solid #c9d6e84d;box-shadow:inset 0 1px 0 #ffffff29,0 16px 38px #0b2b551f}
+.ppk-page .hero .kicker{color:#9bc5ff}
+.ppk-page .hero .meta{color:#c7dcfa}
+.ppk-page .hero .lead{color:#e2edff}
 '''
 
 

@@ -1,7 +1,7 @@
 /* Accent of the program. */
-:root{--ppk-accent:#a45b1c;--ppk-tint:#fff1e2;--ppk-hero:#42301f;--ppk-hero-end:#815934}
-:root[data-theme="dark"]{--ppk-accent:#e8a566;--ppk-accent-ink:#2a1807;--ppk-tint:#2c2013;--ppk-hero:#42301f;--ppk-hero-end:#815934}
-@media (prefers-color-scheme:dark){:root:not([data-theme]){--ppk-accent:#e8a566;--ppk-accent-ink:#2a1807;--ppk-tint:#2c2013;--ppk-hero:#42301f;--ppk-hero-end:#815934}}
+:root{--ppk-accent:#1d5bb8;--ppk-tint:#e8f0fc;--ppk-hero:#0d2a55;--ppk-hero-end:#2a62b0}
+:root[data-theme="dark"]{--ppk-accent:#7db4f0;--ppk-accent-ink:#07203f;--ppk-tint:#12263f;--ppk-hero:#0d2a55;--ppk-hero-end:#2a62b0}
+@media (prefers-color-scheme:dark){:root:not([data-theme]){--ppk-accent:#7db4f0;--ppk-accent-ink:#07203f;--ppk-tint:#12263f;--ppk-hero:#0d2a55;--ppk-hero-end:#2a62b0}}
 /* Guide pages: the shared kit supplies tokens, header and footer; this file maps the older guide palette onto them. */
 :root{--ink:var(--ppk-ink);--muted:var(--ppk-muted);--line:var(--ppk-line);--blue:var(--ppk-accent);--panel:var(--ppk-panel);--canvas:var(--ppk-bg)}
 body.ppk-page{overflow-wrap:anywhere}
@@ -38,6 +38,7 @@ body.ppk-page{overflow-wrap:anywhere}
 @media(max-width:520px){.ppk-nav-wrap .ppk-nav{flex-wrap:wrap}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*:before,*:after{animation:none!important;transition:none!important}}
 /* The guide hero follows the accent of the program. */
-.ppk-page .hero{background:linear-gradient(135deg,var(--ppk-hero),var(--ppk-hero-end));box-shadow:none}
-.ppk-page .hero .kicker,.ppk-page .hero .meta{color:#ffffffd9}
-.ppk-page .hero .lead{color:#fff}
+.ppk-page .hero{background:radial-gradient(circle at 90% 10%,var(--ppk-hero-end) 0,var(--ppk-hero) 38%,#07172e 82%);border:1px solid #c9d6e84d;box-shadow:inset 0 1px 0 #ffffff29,0 16px 38px #0b2b551f}
+.ppk-page .hero .kicker{color:#9bc5ff}
+.ppk-page .hero .meta{color:#c7dcfa}
+.ppk-page .hero .lead{color:#e2edff}

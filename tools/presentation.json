@@ -8,17 +8,17 @@
   "icon": "presentation-icon.png",
   "stack": "Swift · Python",
   "palette": {
-    "accent": "#a45b1c",
-    "tint": "#fff1e2",
-    "hero": "#42301f",
-    "hero-end": "#815934"
+    "accent": "#1d5bb8",
+    "tint": "#e8f0fc",
+    "hero": "#0d2a55",
+    "hero-end": "#2a62b0"
   },
   "palette_dark": {
-    "accent": "#e8a566",
-    "accent-ink": "#2a1807",
-    "tint": "#2c2013",
-    "hero": "#42301f",
-    "hero-end": "#815934"
+    "accent": "#7db4f0",
+    "accent-ink": "#07203f",
+    "tint": "#12263f",
+    "hero": "#0d2a55",
+    "hero-end": "#2a62b0"
   },
   "flow": {
     "ru": [
