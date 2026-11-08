@@ -1,10 +1,24 @@
-<div align="center">
-  <img src="assets/AppIcon.png" width="128" alt="Значок OpenMedia Downloader">
-</div>
+<!-- ppk-readme:head:start -->
+<a href="https://popovantondev.github.io/openmedia-downloader/index-ru.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/header-ru-dark.27edc059.svg"><img src="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/header-ru-light.3bfb4ac0.svg" width="880" height="188" alt="OpenMedia Downloader — Проверяет медиассылки и скачивает разрешённые материалы. macOS 15+ · Apple Silicon, Только исходники 5.5.0"></picture></a>
+<!-- ppk-readme:head:end -->
 
 # OpenMedia Downloader
 
 **Русский** · [Deutsch](README.md) · [English](README.en.md)
+
+<!-- ppk-readme:body:start -->
+<p>
+<a href="https://github.com/popovantondev/openmedia-downloader"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/btn-source-ru-dark.56061501.svg"><img src="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/btn-source-ru-light.650a93ce.svg" width="146" height="36" alt="Исходники"></picture></a>
+<a href="https://popovantondev.github.io/openmedia-downloader/index-ru.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/btn-website-ru-dark.c9480e1b.svg"><img src="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/btn-website-ru-light.32f6decb.svg" width="92" height="36" alt="Сайт"></picture></a>
+<a href="https://popovantondev.github.io/openmedia-downloader/Guide-ru.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/btn-guide-ru-dark.7da72a70.svg"><img src="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/btn-guide-ru-light.3ddbe8bd.svg" width="161" height="36" alt="Руководство"></picture></a>
+<a href="https://github.com/popovantondev/openmedia-downloader/issues/new/choose"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/btn-bug-ru-dark.2c6c9965.svg"><img src="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/btn-bug-ru-light.2dd6d793.svg" width="234" height="36" alt="Сообщить об ошибке"></picture></a>
+</p>
+
+<p><a href="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/assets/screenshots/ru/main-window.png"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/preview-ru-dark.6930ec73.webp"><img src="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/preview-ru-light.f8e8f889.webp" width="880" height="516" alt="Интерфейс программы OpenMedia Downloader"></picture></a><br>
+<sub><a href="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/assets/screenshots/ru/main-window.png">Снимок целиком</a></sub></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/divider-dark.5ffb706c.svg"><img src="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/divider-light.abd65bb4.svg" width="880" height="6" alt="Разделитель"></picture>
+<!-- ppk-readme:body:end -->
 
 <!-- public-release:start -->
 Проверяет поддерживаемые медиассылки и позволяет выбрать разрешённую загрузку или запись трансляции.
@@ -17,10 +31,6 @@
 
 **Первые шаги:** Откройте документацию и статус распространения. Готовый DMG или ZIP приложения сейчас не предлагается.
 <!-- public-release:end -->
-
-**[Сайт](https://popovantondev.github.io/openmedia-downloader/index-ru.html)**
-
-![Главное окно OpenMedia Downloader на русском языке](assets/screenshots/ru/main-window.png)
 
 OpenMedia Downloader — нативное приложение для macOS 15 или новее на Apple silicon. Оно проверяет поддерживаемые ссылки YouTube и Vimeo, помогает выбрать формат и качество, загружает файлы и записывает поддерживаемые текущие трансляции. Документация относится к линии разработки 5.5.0; пакет пока не допущен к распространению ([статус](docs/RIGHTS_RU.md)).
 

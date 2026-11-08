@@ -1,10 +1,24 @@
-<div align="center">
-  <img src="assets/AppIcon.png" width="128" alt="OpenMedia Downloader Symbol">
-</div>
+<!-- ppk-readme:head:start -->
+<a href="https://popovantondev.github.io/openmedia-downloader/index.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/header-de-dark.fdec74f8.svg"><img src="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/header-de-light.111da631.svg" width="880" height="188" alt="OpenMedia Downloader — Prüft Medienlinks und lädt erlaubte Inhalte herunter. macOS 15+ · Apple Silicon, Nur Quellcode 5.5.0"></picture></a>
+<!-- ppk-readme:head:end -->
 
 # OpenMedia Downloader
 
 [Русский](README.ru.md) · **Deutsch** · [English](README.en.md)
+
+<!-- ppk-readme:body:start -->
+<p>
+<a href="https://github.com/popovantondev/openmedia-downloader"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/btn-source-de-dark.558f6f45.svg"><img src="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/btn-source-de-light.0ade5009.svg" width="134" height="36" alt="Quellcode"></picture></a>
+<a href="https://popovantondev.github.io/openmedia-downloader/index.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/btn-website-de-dark.87774505.svg"><img src="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/btn-website-de-light.584d6829.svg" width="129" height="36" alt="Webseite"></picture></a>
+<a href="https://popovantondev.github.io/openmedia-downloader/Guide-de.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/btn-guide-de-dark.c97100f5.svg"><img src="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/btn-guide-de-light.7002bbe1.svg" width="134" height="36" alt="Anleitung"></picture></a>
+<a href="https://github.com/popovantondev/openmedia-downloader/issues/new/choose"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/btn-bug-de-dark.2d244ac0.svg"><img src="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/btn-bug-de-light.d7ed1291.svg" width="168" height="36" alt="Fehler melden"></picture></a>
+</p>
+
+<p><a href="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/assets/screenshots/de/main-window.png"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/preview-de-dark.af70ae23.webp"><img src="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/preview-de-light.ae32ac81.webp" width="880" height="516" alt="Oberfläche von OpenMedia Downloader"></picture></a><br>
+<sub><a href="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/assets/screenshots/de/main-window.png">Ganzer Screenshot</a></sub></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/divider-dark.5ffb706c.svg"><img src="https://raw.githubusercontent.com/popovantondev/openmedia-downloader/main/docs/readme/divider-light.abd65bb4.svg" width="880" height="6" alt="Trennlinie"></picture>
+<!-- ppk-readme:body:end -->
 
 <!-- public-release:start -->
 Prüft unterstützte Medienlinks und ermöglicht erlaubte Downloads oder die Aufzeichnung unterstützter Streams.
@@ -17,10 +31,6 @@ Prüft unterstützte Medienlinks und ermöglicht erlaubte Downloads oder die Auf
 
 **Erste Schritte:** Dokumentation und Veröffentlichungsstatus lesen. Derzeit wird kein fertiges App-DMG oder ZIP angeboten.
 <!-- public-release:end -->
-
-**[Webseite](https://popovantondev.github.io/openmedia-downloader/)**
-
-![Hauptfenster von OpenMedia Downloader auf Deutsch](assets/screenshots/de/main-window.png)
 
 OpenMedia Downloader ist eine native App für macOS 15 oder neuer auf Apple silicon. Sie untersucht unterstützte YouTube- und Vimeo-Links, lässt Medien und Qualität wählen und lädt Dateien oder nimmt unterstützte laufende Streams auf. Die Dokumentation beschreibt die Entwicklungslinie 5.5.0; die Paketierung ist noch nicht zur Weitergabe freigegeben ([Status](docs/RIGHTS_DE.md)).
 
